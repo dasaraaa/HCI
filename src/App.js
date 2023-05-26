@@ -1,11 +1,12 @@
 import './App.css';
-
+import FindAJob from './components/FindAJob';
+import Jobs from './components/Jobs';
 function App() {
   return (
-  
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div>
+      <FindAJob/>
+      <Jobs />
+    </div>
     )
 }
 
