@@ -19,12 +19,12 @@ const currentYear = new Date().getFullYear();
  
 export default function Footer() {
   return (
-    <footer className="relative   mt-[20px] p-10 bg-[#11009E] w-full">
+    <footer className="relative mt-[20px] p-10 bg-blue-200 w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6">
           <a
-              className="font-bold no-underline leading-relaxed inline-block text-[35px] text-[#30A2FF]  whitespace-nowrap uppercase "
+              className="font-bold no-underline leading-relaxed inline-block text-[35px] text-blue-400  whitespace-nowrap uppercase "
               href="#pablo"
             >
               JOBBLISS

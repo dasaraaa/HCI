@@ -80,7 +80,7 @@ import {
           <img src={img5} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
           <CardBody className="text-center">
           <Typography variant="h4" color="blue-gray" className="mb-2">
-           CoopyWritting
+           CopyWriting
           </Typography>
           <Typography color="blue" className="font-medium" textGradient>
            21 jobs
