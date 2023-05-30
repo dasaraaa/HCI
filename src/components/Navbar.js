@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="font-bold leading-relaxed inline-block text-[35px] text-[#30A2FF]  whitespace-nowrap uppercase "
+              className="font-bold no-underline  leading-relaxed inline-block text-[35px] text-[#30A2FF]  whitespace-nowrap uppercase "
               href="#pablo"
             >
               JOBBLISS
@@ -29,10 +29,10 @@ export default function Navbar({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex my-[10px] flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
+                  className="px-3 py-2 no-underline  flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
                   to="home"
                 >
                   <span className="ml-2">Home</span>
@@ -40,7 +40,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
+                  className="px-3 py-2 flex no-underline  items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
                   href="#"
                 >
                   <span className="ml-2">About</span>
@@ -48,15 +48,15 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
+                  className="px-3 py-2 ml-2 no-underline  flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
                   to="job"
                 >
-                  <span className="ml-2">Jobs</span>
+                  Jobs
                 </Link>
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
+                  className="px-3 py-2 flex no-underline  items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
                   href="#pablo"
                 >
                   <span className="ml-2">Companies</span>
@@ -67,9 +67,9 @@ export default function Navbar({ fixed }) {
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-1 px-3 rounded-full">
               Sign up
             </button>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded-full">
-              <Link to="postjob"> Post a Job</Link>
-            </button>
+            {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-1 px-3 rounded-full"> */}
+              <Link className="bg-blue-500 no-underline  hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-1 px-3 rounded-full" to='postjob'>Post a Job</Link>
+            {/* </button> */}
           </div>
         </div>
       </nav>

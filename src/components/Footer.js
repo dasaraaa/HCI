@@ -1,5 +1,5 @@
 import { Typography } from "@material-tailwind/react";
- 
+
 const LINKS = [
   {
     title: "Product",
@@ -19,12 +19,12 @@ const currentYear = new Date().getFullYear();
  
 export default function Footer() {
   return (
-    <footer className="relative mt-[20px] p-10 bg-[#11009E] w-full">
+    <footer className="relative   mt-[20px] p-10 bg-[#11009E] w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6">
           <a
-              className="font-bold leading-relaxed inline-block text-[35px] text-[#30A2FF]  whitespace-nowrap uppercase "
+              className="font-bold no-underline leading-relaxed inline-block text-[35px] text-[#30A2FF]  whitespace-nowrap uppercase "
               href="#pablo"
             >
               JOBBLISS
@@ -36,7 +36,7 @@ export default function Footer() {
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="mb-3 font-medium opacity-40"
+                  className="mb-3 no-underline font-medium opacity-40"
                 >
                   {title}
                 </Typography>
@@ -46,7 +46,7 @@ export default function Footer() {
                       as="a"
                       href="#"
                       color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                      className="py-1.5 no-underline font-normal transition-colors hover:text-blue-gray-900"
                     >
                       {link}
                     </Typography>
@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
-            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+            className="mb-4 text-center no-underline font-normal text-blue-gray-900 md:mb-0"
           >
             &copy; {currentYear} <a href="https://material-tailwind.com/">Material Tailwind</a>. All
             Rights Reserved.

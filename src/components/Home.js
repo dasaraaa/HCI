@@ -12,7 +12,7 @@ export default function Home() {
     <NavBar/>
     <Welcome/>
     <Jobs/>
-    <JobCard/>
+    {/* <JobCard/> */}
     <Slider/>
     <Footer/>
    

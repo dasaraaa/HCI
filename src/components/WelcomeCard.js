@@ -27,9 +27,9 @@ import { Link } from "react-router-dom";
           <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]">
               Sign up
             </button>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]">
-            <Link to="postjob"> Post a Job</Link>
-            </button>
+            {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]"> */}
+            <Link className="bg-blue-500 no-underline hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]" to="postjob"> Post a Job</Link>
+            {/* </button> */}
           </div>
         </CardBody>
       </Card>
