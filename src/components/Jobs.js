@@ -8,6 +8,7 @@ import logo5 from "../images/NIN-logo.jpg"
 import logo6 from "../images/modern-company-logo-design-vector.jpg"
 import logo7 from "../images/R (2).png"
 import logo8 from "../images/R (3).png"
+import FindAJob from "./FindAJob";
 const Data= [
     {
         id:1,
@@ -87,6 +88,7 @@ const Data= [
 const Jobs = () => {
     return (
         <div >
+            <FindAJob/>
             <div className=" flex gap-10 p-12 grid grid-cols-4 justify-center flex-wrap items-center py-10">
                 {
                     Data.map(({id,image,title,time,location,desc,company})=> {
