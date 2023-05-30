@@ -6,6 +6,12 @@ import {
     Typography,
   } from "@material-tailwind/react";
   import img2 from '../images/column-chart-line-icon.png'
+  import img3 from '../images/stethoscope-icon.png'
+  import img4 from '../images/programmer-computer-icon.png'
+  import img5 from '../images/credit-card-icon.png'
+  import img6 from '../images/hand-money-income-dollar-icon.png'
+  import img7 from '../images/decrease-graph-recession-icon.png'
+
    
   export default function JobCard() {
     const stats = [
@@ -45,10 +51,36 @@ import {
       </Card>
       <Card className="w-96">
         <CardHeader floated={false} className="h-80">
-          <img src={img2} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
+          <img src={img3} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
           <CardBody className="text-center">
           <Typography variant="h4" color="blue-gray" className="mb-2">
-           Corporate
+           Health/Medical
+          </Typography>
+          <Typography color="blue" className="font-medium" textGradient>
+           2 jobs
+          </Typography>
+        </CardBody>
+        </CardHeader> 
+      </Card>
+      <Card className="w-96">
+        <CardHeader floated={false} className="h-80">
+          <img src={img4} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
+          <CardBody className="text-center">
+          <Typography variant="h4" color="blue-gray" className="mb-2">
+           IT
+          </Typography>
+          <Typography color="blue" className="font-medium" textGradient>
+           31 jobs
+          </Typography>
+        </CardBody>
+        </CardHeader> 
+      </Card>
+      <Card className="w-96">
+        <CardHeader floated={false} className="h-80">
+          <img src={img5} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
+          <CardBody className="text-center">
+          <Typography variant="h4" color="blue-gray" className="mb-2">
+           CoopyWritting
           </Typography>
           <Typography color="blue" className="font-medium" textGradient>
            21 jobs
@@ -58,10 +90,10 @@ import {
       </Card>
       <Card className="w-96">
         <CardHeader floated={false} className="h-80">
-          <img src={img2} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
+          <img src={img6} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
           <CardBody className="text-center">
           <Typography variant="h4" color="blue-gray" className="mb-2">
-           Corporate
+           Finace
           </Typography>
           <Typography color="blue" className="font-medium" textGradient>
            21 jobs
@@ -71,33 +103,7 @@ import {
       </Card>
       <Card className="w-96">
         <CardHeader floated={false} className="h-80">
-          <img src={img2} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
-          <CardBody className="text-center">
-          <Typography variant="h4" color="blue-gray" className="mb-2">
-           Corporate
-          </Typography>
-          <Typography color="blue" className="font-medium" textGradient>
-           21 jobs
-          </Typography>
-        </CardBody>
-        </CardHeader> 
-      </Card>
-      <Card className="w-96">
-        <CardHeader floated={false} className="h-80">
-          <img src={img2} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
-          <CardBody className="text-center">
-          <Typography variant="h4" color="blue-gray" className="mb-2">
-           Corporate
-          </Typography>
-          <Typography color="blue" className="font-medium" textGradient>
-           21 jobs
-          </Typography>
-        </CardBody>
-        </CardHeader> 
-      </Card>
-      <Card className="w-96">
-        <CardHeader floated={false} className="h-80">
-          <img src={img2} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
+          <img src={img7} className="w-[140px] py-[55px] m-auto" alt="profile-picture" />
           <CardBody className="text-center">
           <Typography variant="h4" color="blue-gray" className="mb-2">
            Corporate

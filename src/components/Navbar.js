@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -32,7 +33,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
-                  href="#pablo"
+                  to="home"
                 >
                   <span className="ml-2">Home</span>
                 </a>
@@ -40,18 +41,18 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
-                  href="#pablo"
+                  href="#"
                 >
                   <span className="ml-2">About</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
-                  href="#pablo"
+                  to="job"
                 >
                   <span className="ml-2">Jobs</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a
@@ -67,7 +68,7 @@ export default function Navbar({ fixed }) {
               Sign up
             </button>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded-full">
-               Post a Job
+              <Link to="postjob"> Post a Job</Link>
             </button>
           </div>
         </div>

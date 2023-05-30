@@ -6,6 +6,7 @@ import {
     
   } from "@material-tailwind/react";
   import img1 from '../images/222.jpg'
+import { Link } from "react-router-dom";
    
   export default function Welcome() {
     return (
@@ -27,7 +28,7 @@ import {
               Sign up
             </button>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]">
-               Post a Job
+            <Link to="postjob"> Post a Job</Link>
             </button>
           </div>
         </CardBody>
