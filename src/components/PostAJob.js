@@ -34,11 +34,11 @@ export default function PostAJob() {
      <div className="contact-us">
        <h2> Contact Us</h2>
        <h3>Adress</h3>
-       <p><a href="#">203 Fake St.Mountain View , San Francisco California</a></p>
+       <p><a href="#" className='a'>203 Fake St.Mountain View , San Francisco California</a></p>
        <h3>Phone</h3>
-       <p><a href="#">044378962393</a></p>
+       <p><a href="#" className='a'>044378962393</a></p>
        <h3>Email</h3>
-       <p><a href="#">erionashala20@gmail.com</a></p>
+       <p><a href="#" className='a'>erionashala20@gmail.com</a></p>
  
        
  
