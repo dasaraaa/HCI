@@ -5,7 +5,7 @@ import {
     Typography,
     
   } from "@material-tailwind/react";
-  import img1 from '../images/222.jpg'
+  import img1 from '../images/pexels-andrea-piacquadio-3760069.jpg'
 import { Link } from "react-router-dom";
    
   export default function Welcome() {
