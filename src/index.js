@@ -11,6 +11,7 @@ import {
 import Home from './components/Home';
 import Jobs from './components/Jobs';
 import PostAJob from './components/PostAJob';
+import SignIn from './components/SignIn';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
     path: "/postjob",
     element: <PostAJob/>,
   },
+  {
+    path:"/signin",
+    element: <SignIn />
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
