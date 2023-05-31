@@ -23,10 +23,9 @@ import { Link } from "react-router-dom";
           <Typography variant="h1"  className="mb-2 text-[#11009E] font-extrabold text-[50px] pl-[120px] ml-[50px]">
             Find Your Next <br/> Dream Job
           </Typography>
-          <div className="pl-[45%]">
-          <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]">
-              Sign up
-            </button>
+          <div className="pl-[45%] my-5">
+          <Link className="bg-blue-500 no-underline hover:bg-blue-700 text-white font-bold ml-1 mr-3  py-2 px-4 rounded-[9px]" to="cv"> Post a CV</Link>
+
             {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]"> */}
             <Link className="bg-blue-500 no-underline hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-2 px-4 rounded-[9px]" to="postjob"> Post a Job</Link>
             {/* </button> */}

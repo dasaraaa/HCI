@@ -31,20 +31,20 @@ export default function Navbar({ fixed }) {
           >
             <ul className="flex my-[10px] flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 no-underline  flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
+              <Link
+                  className="px-3 py-2 ml-2 no-underline  flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
                   to="home"
                 >
-                  <span className="ml-2">Home</span>
-                </a>
+                  Home
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex no-underline  items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
-                  href="#"
+              <Link
+                  className="px-3 py-2 ml-2 no-underline  flex items-center text-xs uppercase font-bold leading-snug text-[#4942E4] hover:opacity-75"
+                  to="about"
                 >
-                  <span className="ml-2">About</span>
-                </a>
+                  About
+                </Link>
               </li>
               <li className="nav-item">
                 <Link
@@ -64,9 +64,8 @@ export default function Navbar({ fixed }) {
               </li>
             </ul>
             
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-1 px-3 rounded-full">
-              Sign up
-            </button>
+            <Link className="bg-blue-500 no-underline  hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-1 px-3 rounded-full" to='signin'>Sign in</Link>
+
             {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-1 px-3 rounded-full"> */}
               <Link className="bg-blue-500 no-underline  hover:bg-blue-700 text-white font-bold ml-2 mr-5 py-1 px-3 rounded-full" to='postjob'>Post a Job</Link>
             {/* </button> */}

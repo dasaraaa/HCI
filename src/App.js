@@ -1,9 +1,9 @@
 import './App.css';
 // import FindAJob from './components/FindAJob';
-//import Home from './components/Home';
+import Home from './components/Home';
 // import Jobs from './components/Jobs';
 //import AboutUs from "./components/AboutUs";
-import SignIn from "./components/SignIn";
+//import SignIn from "./components/SignIn";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Jobs/> 
       <Home/> 
       <AboutUs /> */ }
-      <SignIn />
+      {/* <SignIn /> */}
+      <Home/> 
     </div>
     )
 }

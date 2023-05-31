@@ -12,6 +12,9 @@ import Home from './components/Home';
 import Jobs from './components/Jobs';
 import PostAJob from './components/PostAJob';
 import SignIn from './components/SignIn';
+import AboutUs from './components/AboutUs';
+import { element } from 'prop-types';
+import CVForm from './components/CVForm';
 
 const router = createBrowserRouter([
   {
@@ -27,12 +30,20 @@ const router = createBrowserRouter([
     element: <Jobs/>,
   },
   {
-    path: "/postjob",
+    path: "postjob",
     element: <PostAJob/>,
   },
   {
-    path:"/signin",
+    path:"signin",
     element: <SignIn />
+  },
+  {
+    path:"about",
+    element: <AboutUs />
+  },
+  {
+    path:'cv',
+    element:<CVForm/>
   }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
